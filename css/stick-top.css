@@ -1,0 +1,33 @@
+#section1 div:first-child {
+    background-image: url("https://img.onl/s91Wm0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid black;
+}
+
+#section2 div:first-child {
+    background-image: url("https://img.onl/tHLn8J");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#section3 div:first-child {
+    background-image: url("https://img.onl/jCKQin");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section4 div:first-child {
+    background-image: url("https://img.onl/mJEznW");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centered-text {
+  text-align: center;
+}
