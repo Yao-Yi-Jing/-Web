@@ -1,1 +1,66 @@
-
+<DOCUMET html>
+    <html>
+        <body>
+            <head>
+                <link rel="stylesheet" type="text/css" href="css/stick-top.css">
+            </head>
+            <section class="container-fluid" style="display:flex;height:400px;background-color:gray; color:white;">
+                <div class="row" style="align-self:flex-end">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                     <div class="centered-text">
+                        <h1>運動傷害防護</h1>
+                        <p>運動傷害防護是一個至關重要的議題，不僅適用於專業運動員，也對於普通人在日常生活中參與體育活動或運動課程同樣重要。</p>
+                        <p>為甚麼需要呢？</p>
+                         <p>因為擁有一個好的運動傷害意識與防護不僅能夠降低您在做任何運動時的的受傷風險，更能提高自身的運動表現，另外在您能夠擁有健康的身體能長期的參與你想從事的任何運動，也能提高生活的品質，最後也能減少醫療費的支出</p>
+                        <p>接下來我們將為您介紹如何預防運動傷害的4項要點
+                        </p>
+                         </div>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            
+            </section>
+            <section class="row" id="section1" style="height:300vh display flex; flex-direction: row-reverse;">
+                <div class="sticky-top col-6" style="height:200vh;"></div>
+                <div class="col-6">
+            <H1>做好充足的熱身</H1>
+                <p>在進行任何運動活動之前，進行充分的熱身運動，以幫助肌肉和關節變暖和彈性化。同樣重要的是，在運動結束後進行冷卻運動，有助於減少肌肉酸痛和受傷的風險。</p>
+                </div>
+            
+            </section>
+            <section id="section2" class="row" style="height:300vh;">
+                <div class="sticky-top col-6" style="height:100vh;"></div>
+                <div class="col-6 ">
+            <H1>選擇合適的運動裝備</H1>
+                <p>確保您使用合適的運動裝備，包括運動鞋、襪子、護具、手套等。正確的裝備可以提供額外的支撐和保護，也能讓你長時間舒服的運動。</p>
+                <p>以此圖片的環境為例，在這種摩擦力大的室內木地板打球應該要選擇籃球鞋、排球或是與球鞋等等，但通常會有人穿著跑步的鞋子來打球，跑步鞋講求在跑步中舒適且順暢，且跑步中不會有過多需要側向移動的動作，因此左右兩側的支撐較弱，拿來打球很容易就會扭到腳，造成不必要的運動傷害</p>
+            </div>
+            </section>
+            
+            
+            <section id="section3" class="row" style="height:300vh display flex; flex-direction: row-reverse;">
+                <div class="sticky-top col-6" style="height:200vh;"></div>
+                <div class="col-6">
+            <H1>強化、放鬆肌肉</H1>
+                <p>定期進行適量的重訓讓肌肉力量強化，以及在運動結束後做伸展運動，以提高肌肉的穩定性、延展性和關節的靈活性。這有助於減少拉傷和扭傷的風險。.</p>
+            </div>
+            </section>
+            
+            <section id="section4" class="row" style="height:300vh;">
+                <div class="sticky-top col-6" style="height:100vh;"></div>
+                <div class="col-6">
+                <H1>正確的技術和姿勢</H1>
+                <p>正確的技術和姿勢可以提高運動效率。當您執行運動時，正確的姿勢使您的身體能夠以最小的能量消耗完成動作，從而在比賽中表現出色。這意味著您更能控制和平衡自己的身體，減少跌倒或扭傷的風險。而當您知道自己掌握了正確的技術，您會更有信心參加運動活動，這對於提高表現非常重要。</p>
+            </div>
+            </section>
+            
+            <section style="height:500px;background-color:gray">
+                <div class="centered-text">
+                <p>總之，運動傷害防護是關乎您運動健康的重要議題，遵循上述建議可以幫助您減少受傷的風險，保持健康的運動生活方式。
+            </p>
+                    <p>如想進一步了解請來電：0900-000-001</p>
+                    </div>
+            </section>
+        </body>
+    </html>
