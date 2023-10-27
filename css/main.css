@@ -1,113 +1,84 @@
-#banner{
-    width: 1200px;
-    height: 200px;
-    background-color: purple;
-    color: black;
-    clear: both;
-    position: fixed;
-}
-#nav { 
-    width: 100px;
-    height: 500px;
-    background-color: aquamarine;
-    float: left;
-}
-#content {
-    width: 800px;
-    background-color: blue;
-    float:left;
-    margin-left: 200px;
-}
-
-#information {
-    width: 200px;
-    height: 500px;
-    background-color: blue;
-    position: fixed;
-}
-#footer {
-    width: 600px;
-    height: 100px;
-    background-color: coral;
-    clear: both;
-}
 body {
     margin: 0;
     padding: 0;
-    font-family:
-        "Shadows Into Light",
-        Helvetica,
-        "Helvetica Neue",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        Arial,
-        sans-serif;
-    font-size: 90%;
 }
-#content, #nav, #supporting{
-    margin-top: 200px;
-    padding: 10px;
-}
-#nav,#contant,#info,#banner{
-    padding: 10px;
-}
+
 #wrapper {
-    width: 1200px;
+    width: 800px;
     margin: 0 auto;
 }
-.container{
+
+#banner {
+    width: 800px;
+    height: 100px;
+    background-color: beige;
+    opacity:0.7;
+    clear:both;
+    position:fixed;
+}
+
+#banner-placeholder{
+    height: 100px;
+}
+
+#nav {
+    width: 100px;
+    /* height: 200px;*/
+    /* background-color:lightgray; */
+    /* float:left; */
+    position:fixed;
+}
+
+ul{
+    padding-left: 0;
+}
+li{
+    display:block;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color:lightgray;
+}
+
+li:hover{
+    background-color:pink;
+}
+ul a{
+    text-decoration: none;
+}
+
+#nav-placeholder{
+    width:100px;
+    float:left;
+}
+#content {
+    width: 600px;
+    float:left;
+}
+#supporting {
+    width: 100px;
+    height: 150px;
+    background-color:pink;
+    float:left;
+}
+#footer {
+    width: 800px;
+    height: 50px;
+    background-color:gray;
+    clear:both;
+}
+
+.container {
+  overflow: hidden; /* Clear floats */
+}
+
+section{
+    height:100vh;
+    /* scroll-margin-top: 100px;  */
+    padding-top: 100px;
+    margin-top: -100px;    
+    position:relative;
+}
+
+.text-container{
     padding: 5px;
 }
-#about,#Education,#Experience,#special{
-    padding-top: 200px;
-
-}
-#nav li{
-    display:block;
-    background-color: coral;
-    padding: 2px;
-    margin: 5px;
-    text-align:center;
-    color: darkgreen;
-    box-shadow: 1px 1px 5px 1px blueviolet(0,0,0,0.5);
-    border: 3px solid white;
-    border-radius: 15px;
-}
-#nav ul{
-    padding-left: 0px;
-}
-nav li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-nav li a:hover{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-#nav li:hover{
-    background-color: fuchsia;
-}
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
